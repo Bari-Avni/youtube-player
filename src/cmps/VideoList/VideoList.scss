@@ -1,0 +1,28 @@
+.video-list {
+  width: 620px;
+  
+  ul {
+    margin: unset;
+    padding: unset;
+  }
+  
+  li{
+    background-color: lightblue;
+    margin-bottom: 30px;
+  }
+
+  // Tablet Layout
+
+  @media (max-width: 1240px + 40px) {
+    width: 528px;
+    margin: auto;
+  }
+
+  // Mobile Layout
+
+  @media (max-width: 720px + 40px) {
+    width: 320px;
+    margin: auto;
+    font-size: 16px;
+  }
+}

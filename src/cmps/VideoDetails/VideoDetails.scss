@@ -1,0 +1,34 @@
+.video-details {
+  .title {
+    width: 400px;
+    margin: auto;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  // Tablet Layout
+
+  @media (max-width: 1240px + 40px) {
+    margin-bottom: 30px;
+    iframe {
+      width: 528px;
+      height: 297px;
+    }
+  }
+
+  // Mobile Layout
+
+  @media (max-width: 720px + 40px) {
+    iframe {
+      width: 320px;
+      height: 180px;
+    }
+    .title {
+      width: 320px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}

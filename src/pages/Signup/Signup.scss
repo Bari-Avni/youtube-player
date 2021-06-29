@@ -1,0 +1,46 @@
+.user-signup {
+  padding-top: 80px;
+  input {
+    padding: 6px 12px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid gray;
+  }
+  label {
+    margin-right: 20px;
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+  }
+  .loggedin,
+  .login,
+  .signup {
+    width: 400px;
+    margin: 30px auto 30px auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  .essential {
+    background-color: lightcoral;
+  }
+
+  // Mobile Layout
+
+  @media (max-width: 460px + 40px) {
+    label {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    .loggedin,
+    .login,
+    .signup {
+      width: 300px;
+      margin: 13px auto 13px auto;
+    }
+  }
+}

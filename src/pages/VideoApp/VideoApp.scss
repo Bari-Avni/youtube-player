@@ -1,0 +1,11 @@
+.video-app {
+  padding-top: 80px;
+
+  // Tablet + Mobile Layout
+
+  @media (max-width: 1240px + 40px) {
+    .video-container {
+      flex-direction: column-reverse;
+    }
+  }
+}

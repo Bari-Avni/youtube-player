@@ -1,0 +1,57 @@
+.header-container {
+  height: 80px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: burlywood;
+
+  .app-header {
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      color: brown;
+      font-size: 1.6rem;
+      margin: auto;
+    }
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 40px;
+        margin-right: 5px;
+        mix-blend-mode: color-burn;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      margin-inline-start: 20px;
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-inline-start: 10px;
+    }
+    .active-nav {
+      font-weight: bold;
+      color: brown;
+    }
+  }
+
+  // Mobile Layout
+
+  @media (max-width: 720px + 40px) {
+    h3{
+      display: none;
+    }
+  }
+}

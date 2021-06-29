@@ -1,0 +1,43 @@
+.video-preview {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+
+  img {
+    width: unset;
+  }
+
+  .content {
+    padding-left: 10px;
+  }
+
+  .preview-section {
+    padding-bottom: 5px;
+  }
+
+  .preview-header {
+    flex: 0 0 140px;
+  }
+
+  .preview-title {
+    font-weight: bold;
+    flex: 1 1 250px;
+  }
+  .preview-txt {
+    flex: 1 1 250px;
+  }
+
+  button {
+    background-color: gray;
+  }
+
+  // Tablet + Mobile Layout
+
+  @media (max-width: 1240px + 40px) {
+    display: unset;
+    img{
+      margin-top: 10px;
+    }
+  }
+}
