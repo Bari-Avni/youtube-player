@@ -11,8 +11,7 @@ export const videoService = {
   // performVideo,
 };
 
-const API_KEY = "AIzaSyBnWvaojEtdHAjoLNxrG8k87QpGpvOHgiQ";
-// const API_KEY = "AIzaSyCp8KMTEjR9frWUGpSnc8Cw5cLVe7wRRDM";
+const API_KEY = "<CHANGE TO YOUR API KEY>";
 
 function getVideos(filterBy) {
   console.log("filterBy", filterBy);
